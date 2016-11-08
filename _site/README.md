@@ -1,2 +1,0 @@
-Ricardo Araújo personal website
-=============================

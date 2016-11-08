@@ -33,6 +33,18 @@
   margin: 0 auto;
   background-color: lightgray; }
 
+#alert{
+  color: red;
+}
+
+a{
+  color: lightgray;
+}
+
+a:hover{
+  color: #bbbb77;
+}
+
 .left-container {
   background: #333;
   display: -webkit-box;
