@@ -9,25 +9,14 @@
 
 .content {
   padding: 20px 30px 0px 5px; }
-  .content h1 {
-    margin: 10px 0; }
-  .content h3 {
+  .content h1, .content h3 {
     margin: 10px 0; }
 
-.section-header-text {
-  margin-left: 10px; }
-
-.section-body {
+.section-header-text, .section-body {
   margin-left: 10px; }
 
 .date {
   margin-top: -15px; }
-
-a {
-  color: lightgray;
-  text-decoration: none; }
-  a:hover {
-    color: #bbbb77; }
 
 .main-container {
   display: -webkit-box;
@@ -43,9 +32,6 @@ a {
   width: 210mm;
   margin: 0 auto;
   background-color: lightgray; }
-
-#alert {
-  color: red; }
 
 .left-container {
   background: #333;
@@ -163,8 +149,7 @@ p {
     .content-table .content-row .content-right #extend-to-wrap {
       width: 220px; }
 
-/*
- *  Reset Media
+/*  Reset Media
  */
 @media (max-width: 210mm) {
   .main-container {
@@ -178,30 +163,12 @@ p {
   .left-container {
     width: auto;
     height: auto; }
-    .left-container .social {
-      width: auto;
-      height: auto; }
-    .left-container .about {
-      width: auto;
-      height: auto; }
-    .left-container .id {
-      width: auto;
-      height: auto; }
-    .left-container .photo {
+    .left-container .social, .left-container .about, .left-container .id, .left-container .photo {
       width: auto;
       height: auto; }
   .right-container {
     width: auto;
     height: auto; }
-    .right-container .experience {
-      width: auto;
-      height: auto; }
-    .right-container .skills {
-      width: auto;
-      height: auto; }
-    .right-container .education {
-      width: auto;
-      height: auto; }
-    .right-container .contacts {
+    .right-container .experience, .right-container .skills, .right-container .education, .right-container .contacts {
       width: auto;
       height: auto; } }
